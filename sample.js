@@ -15,9 +15,15 @@ var c=12
 console.log(c+=5)
 
 //Comparsion
+var a=11
+var b=12
 console.log("Comparsion Operator");
 console.log(a==b);
 console.log(a!=b);
+console.log(a<=b);
+console.log(a>=b);
+
+
 
 
 
