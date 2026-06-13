@@ -32,6 +32,28 @@ console.log(a> 0 && b < 0);
 console.log(a< 0 || b < 0);
 console.log(!(a > 0));
 
+//unary operator
+var c=6
+console.log("Unary Operator");
+console.log(c++);
+console.log(c--);
+console.log(++c);
+console.log(--c);
+
+//Ternary Operator
+console.log("Ternary Operator");
+var result = (a > b) ? "a is greater": "b is greater";
+// var variavlename = (codition) ? truevalue : falsevalue;
+console.log(result);
+
+
+
+
+
+
+
+
+
 
 
 
