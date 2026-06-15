@@ -1,8 +1,28 @@
 var colour = "white"
 
-elseif(colour == "yellow"){
+if(colour == "yellow"){
     console.log("sunflower");
 }
 elseif(colour=="Pink"){
     console.log("rose");
 }
+//switch statement
+var signal="white"
+
+switch(signal){
+    case"green":
+    console.log("go");
+    break;
+    
+    case"yellow":
+    console.log("wait");
+    break;
+
+    case"red":
+    console.log("stop");
+    break;
+
+    default:
+        console.log("invalid signal colour");       
+}
+
